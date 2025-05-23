@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b402d10a.css",
+    "main.js": "/static/js/main.dceede3a.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/image.png": "/static/media/image.49e63f6b264536b8fd3a.png",
+    "static/media/home-main.png": "/static/media/home-main.10dc2f4baebf8e90f79c.png",
+    "static/media/avatar.png": "/static/media/avatar.812d83aa476ade6a332d.png",
+    "static/media/Agrivoice.jpg": "/static/media/Agrivoice.6ff4a962d0cc03643cfd.jpg",
+    "static/media/Pharos.png": "/static/media/Pharos.d0278844a22e6af8267c.png",
+    "static/media/subhashree B Internship Resume.pdf": "/static/media/subhashree B Internship Resume.82cd77a43e8b285ba8bd.pdf",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Insta.jpg": "/static/media/Insta.57fd2742ecc64c7186fa.jpg",
+    "static/media/Mess.jpg": "/static/media/Mess.35d972f26db625426959.jpg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.b402d10a.css.map": "/static/css/main.b402d10a.css.map",
+    "main.dceede3a.js.map": "/static/js/main.dceede3a.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b402d10a.css",
+    "static/js/main.dceede3a.js"
+  ]
+}
