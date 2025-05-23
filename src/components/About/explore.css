@@ -1,0 +1,100 @@
+/* Explore Section */
+.explore-section {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  /* Section Title Styling */
+  .section-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .purple {
+    color: #7a00ff;
+  }
+  
+  /* Explore Box Styles */
+  .explore-box {
+    background: rgba(255, 255, 255, 0.15); /* Subtle glass effect */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 25px;
+    width: 250px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    opacity: 0;
+    transform: translateY(80px);
+    animation: fadeInUp 1s ease forwards;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Explore Box Hover Effects */
+  .explore-box:hover {
+    box-shadow: 0 12px 45px rgba(0, 170, 255, 0.5);
+    transform: translateY(-5px);
+  }
+  
+  /* Hover Effect: Minimal, only subtle shadow effect */
+  .explore-box:hover {
+    transform: translateY(-8px); /* Subtle movement */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .explore-box h5 {
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .explore-box p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
+  /* Parallax Effect on Scroll */
+  .explore-section {
+    perspective: 2px;
+    overflow-x: hidden;
+  }
+  
+  .explore-box {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  
+  /* Parallax Animation */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .explore-box {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .section-title {
+      font-size: 1.8rem;
+    }
+  }
+  
+  

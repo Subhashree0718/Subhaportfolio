@@ -1,0 +1,79 @@
+/* Tool Container */
+.toolstack-container {
+    padding: 50px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Tool Card Styles */
+  .tool-card {
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(6px); /* Blurred background */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 25px 20px;
+    text-align: center;
+    width: 180px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hover Effect on Card */
+  .tool-card:hover {
+    transform: translateY(-8px); /* Slightly lift the card */
+    box-shadow: 0 12px 30px rgba(0, 170, 255, 0.6);
+    border-color: rgba(0, 170, 255, 0.5);
+    z-index: 10; /* Elevates the card on hover */
+  }
+  
+  /* Icon Styling */
+  .tool-icon {
+    font-size: 3rem;
+    color: #00c6ff; /* Neon blue effect */
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effect on Icon */
+  .tool-card:hover .tool-icon {
+    color: #7a00ff; /* Change icon color on hover */
+    transform: scale(1.1); /* Slight scale effect on hover */
+  }
+  
+  /* Tool Name Styling */
+  .tool-name {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effect on Tool Name */
+  .tool-card:hover .tool-name {
+    color: #00c6ff; /* Change text color to neon blue on hover */
+    transform: translateY(-5px); /* Lift text slightly on hover */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .tool-card {
+      width: 150px;
+      padding: 20px;
+    }
+  
+    .tool-icon {
+      font-size: 2.5rem;
+    }
+  
+    .tool-name {
+      font-size: 1rem;
+    }
+  }
+  
